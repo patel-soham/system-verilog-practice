@@ -5,6 +5,10 @@ module top;
 string str1; // also try ""
 string str2;
 
+// Here str3 is not one string with size 5
+// but an array of strings with size 5
+string str3[5]; // equals [0:5] not [5:0]
+
 byte b1 = "A";
 byte b2;
 int int1;
@@ -65,6 +69,30 @@ initial begin
 	
 	str1 = "12345";
 	$display("string 1 after reversing : %s", rev_string(str1)); // 54321
+
+	foreach (str3[i]) begin
+		$display("str3[%0d] = %s", i, str3[i]); // checking empty strings in an array
+		
+		// Assigning "string number <index>" to each string
+		str3[i] = $sformatf("string number %0d",i); // method function
+		// alternate method
+		//$sformat(str3[i],"string number %0d",i); // method function
+		
+	end
+	//str3[0] = 
+ 	//str3[1] = 
+ 	//str3[2] = 
+	//str3[3] = 
+ 	//str3[4] = 
+	// checking if allocation was successful
+	foreach (str3[i]) begin
+		$display("str3[%0d] = %s", i, str3[i]); // checking empty strings in an array
+	end
+	//str3[0] = string number 0
+ 	//str3[1] = string number 1
+ 	//str3[2] = string number 2
+	//str3[3] = string number 3
+ 	//str3[4] = string number 4
 end
 
 // in system verilog function can have output arguments as well
