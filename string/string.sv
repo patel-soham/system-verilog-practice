@@ -7,7 +7,7 @@ string str2;
 
 // Here str3 is not one string with size 5
 // but an array of strings with size 5
-string str3[5]; // equals [0:5] not [5:0]
+	string str3[5]; // equals [0:4] not [4:0]
 
 byte b1 = "A";
 byte b2;
