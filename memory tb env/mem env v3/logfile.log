@@ -1,0 +1,373 @@
+# End time: 13:39:59 on Dec 19,2022, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 1
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 13:39:59 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.memory
+# Loading work.memory
+# ** Note: $finish    : top.sv(49)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 49
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:21:36 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:21:36 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:21:38 on Dec 19,2022, Elapsed time: 2:41:39
+# Errors: 0, Warnings: 1
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 16:21:38 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v3/work.memory
+# Loading work.memory
+# ** Note: $finish    : top.sv(49)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 49
+quit -sim
+# End time: 16:39:05 on Dec 19,2022, Elapsed time: 0:17:27
+# Errors: 0, Warnings: 1
+cd {C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4}
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 16:39:18 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 16:39:18 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 16:39:19 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftstbg9m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftstbg9m
+# ** Note: $finish    : top.sv(49)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 49
+quit -sim
+# End time: 16:47:22 on Dec 19,2022, Elapsed time: 0:08:03
+# Errors: 0, Warnings: 3
+cd {C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4}
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:17:53 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# ** Error: ** while parsing file included at headers.svh(10)
+# ** at mem_env.sv(6): Invalid type 'mem_scb'. Please check the type of the variable 'scb'.
+# ** Error: (vlog-13069) ** while parsing file included at headers.svh(10)
+# ** at mem_env.sv(6): near "=": syntax error, unexpected '=', expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 18:17:53 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.6c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.6c/win64/vlog failed.
+#     while executing
+# "vlog headers.svh -l logfiletest.log"
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:18:49 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:18:49 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:18:50 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftt22b3f".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt22b3f
+# ********** Test PASSED *****************
+# Missmatch count : 15   Match count = 0
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:19:48 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:19:48 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:19:51 on Dec 19,2022, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:19:51 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlfttycvq2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttycvq2
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:20:26 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:20:26 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:20:29 on Dec 19,2022, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:20:29 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlft7c830z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7c830z
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:22:00 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:22:00 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:22:02 on Dec 19,2022, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:22:02 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftmmn73s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmmn73s
+# ** Note: $finish    : top.sv(49)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 49
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:26:07 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:26:07 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# End time: 18:26:10 on Dec 19,2022, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:26:10 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftx0yzwv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx0yzwv
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:28:56 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:28:56 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:28:57 on Dec 19,2022, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:28:57 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftdkermr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdkermr
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+do run.do
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 18:29:40 on Dec 19,2022
+# vlog -reportprogress 300 headers.svh -l logfiletest.log 
+# -- Compiling module memory
+# -- Compiling package headers_svh_unit
+# -- Compiling interface mem_intf
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 18:29:40 on Dec 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:29:41 on Dec 19,2022, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 3
+# vsim -novopt tb_top "+testcase=test_n_wr_rd" -l logfile.log 
+# Start time: 18:29:41 on Dec 19,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.headers_svh_unit
+# Loading sv_std.std
+# Loading work.headers_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.mem_intf
+# Loading work.mem_intf
+# Refreshing C:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v4/work.memory
+# Loading work.memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: patel  Hostname: SOHAMLAPTOP  ProcessID: 23412
+#           Attempting to use alternate WLF file "./wlftfid766".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfid766
+# ********** Test PASSED *****************
+# Missmatch count : 0   Match count = 15
+# ** Note: $finish    : top.sv(54)
+#    Time: 1225 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Module tb_top at top.sv line 54
+# End time: 18:30:08 on Dec 19,2022, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 3

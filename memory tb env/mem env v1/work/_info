@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/patel/Downloads/VLSI Guru_1/System Verilog/mem env v1
+Xheaders_svh_unit
+!s115 mem_intf
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Vj]BS[l;S6^URkJDK:YBN`1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IUi9:nd@zOf]i1g8YH3Wd1
+Ij]BS[l;S6^URkJDK:YBN`1
+!i103 1
+S1
+R0
+Z2 w1671384535
+8headers.svh
+Fheaders.svh
+Z3 Fmemory.v
+Fmem_common.sv
+Z4 Fmem_intf.sv
+Fmem_tx.sv
+Fmem_mon.sv
+Fmem_cov.sv
+Fmem_gen.sv
+Fmem_bfm.sv
+Fmem_agent.sv
+Fmem_env.sv
+Z5 Ftop.sv
+L0 5
+Z6 OL;L;10.6c;65
+Z7 !s108 1671384536.000000
+Z8 !s107 top.sv|mem_env.sv|mem_agent.sv|mem_bfm.sv|mem_gen.sv|mem_cov.sv|mem_mon.sv|mem_tx.sv|mem_intf.sv|mem_common.sv|memory.v|headers.svh|
+Z9 !s90 -reportprogress|300|headers.svh|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+Ymem_intf
+R1
+Z12 DXx4 work 16 headers_svh_unit 0 22 j]BS[l;S6^URkJDK:YBN`1
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IbCaE]^k9ec_eM9a5CzRW0
+I?`9;4<J7MCSKhLY?d:Ade0
+Z14 !s105 headers_svh_unit
+S1
+R0
+w1671382161
+8mem_intf.sv
+R4
+L0 6
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmemory
+R1
+R13
+r1
+!s85 0
+31
+!i10b 1
+!s100 MA84X_nVJ?UT:A]FheL`N0
+ILA?]ZC0@jgcioETHM<?;>3
+R14
+S1
+R0
+w1670968276
+8memory.v
+R3
+L0 15
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_top
+R1
+R12
+R13
+r1
+!s85 0
+31
+!i10b 1
+!s100 <gg1P``0UPhEN^<eQHO563
+ICE6M[1EkI=TAkUF5mo5eR3
+R14
+S1
+R0
+R2
+8top.sv
+R5
+L0 1
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
